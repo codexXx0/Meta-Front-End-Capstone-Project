@@ -7,7 +7,7 @@ import greekImg from '../assets/greek salad.jpg'
 import bruImg from '../assets/bruchetta.svg'
 import lemonImg from '../assets/lemon dessert.jpg'
 import about1Img from '../assets/Mario and Adrian A.jpg'
-import about2Img from '../assets/Mario and Adrian B.jpg'
+// import about2Img from '../assets/Mario and Adrian B.jpg'
 
 export default function Home() {
     return (
@@ -64,7 +64,7 @@ export default function Home() {
                 </article>
                 <article className='right' >
                     <img src={about1Img} alt="" />
-                    <img src={about2Img} alt="" />
+{/*                     <img src={about2Img} alt="" /> */}
                 </article>
             </section>
         </main>
